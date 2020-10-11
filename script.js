@@ -36,7 +36,7 @@ const getQuote = async () => {
     // Stop loader and show quote
     removeLoadingSpinner();
   } catch (error) {
-    
+    console.log(error);
   }
 }
 
